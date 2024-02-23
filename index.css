@@ -1,0 +1,136 @@
+body{
+    background-color: #141414;
+    display: flex;
+    height: 100dvh;
+    /* Para alinhar horizontalmente e verticalmente, respectivamente os conteudos */
+    justify-content: center; align-items: center;
+    overflow: hidden;
+}
+
+.caixa{
+    height: 530px;
+    width: 350px;
+    background-color: #1F1F1F;
+    border-radius: 15px;
+    justify-content: center;
+    display:flex;
+
+}
+
+.imagem{
+    position: absolute;
+    border-radius: 100px;
+    width: auto;
+    height: 15%;
+    top: 80px;
+}
+.Containerdobutao{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin-top: 460px;
+    flex-direction: column;
+
+}
+
+.botao{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .08px;
+    color: white;
+    background-color: #333333;
+    margin: 7px;
+    display: block;
+    width: 285px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 1.5s ease-in-out;
+    display: inline-block;
+}
+
+.botao:hover{
+    background-color: #F70084;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.London{
+    color: #F70084;
+    top: 220px;
+    font-size: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    position: absolute;
+}
+.Jessica{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    top: 180px;
+    font-size: 30px;
+}
+
+.Front{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    top: 247px;
+    font-size: 13px;
+}
+
+.caixa1{
+    height: 455px;
+    width: 180px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items:end;
+    display: flex;
+    position: absolute;
+
+}
+
+@media screen and (max-width: 768px) {
+    .imagem{
+        top:50px;
+    }
+
+    .Jessica{
+        top:140px;
+    }
+
+    .London{
+        top: 180px;
+    }
+
+    .Front{
+        top: 205px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
