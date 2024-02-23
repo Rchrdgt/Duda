@@ -1,34 +1,33 @@
 body{
     background-color: #141414;
     display: flex;
-    height: 100dvh;
+    height: 42em;
     /* Para alinhar horizontalmente e verticalmente, respectivamente os conteudos */
     justify-content: center; align-items: center;
     overflow: hidden;
 }
 
 .caixa{
-    height: 530px;
-    width: 350px;
+    height: 33em;
+    width: 22em;
     background-color: #1F1F1F;
-    border-radius: 15px;
+    border-radius: 4%;
     justify-content: center;
     display:flex;
 
 }
 
 .imagem{
-    position: absolute;
-    border-radius: 100px;
+    position: fixed;
+    border-radius: 90%;
     width: auto;
-    height: 15%;
-    top: 80px;
+    height: 6em;
+    top: 5em;
 }
 .Containerdobutao{
     display: flex;
-    width: 300px;
-    height: 100px;
-    margin-top: 460px;
+    width: 19em;
+    margin-top: 29em;
     flex-direction: column;
 
 }
@@ -37,15 +36,14 @@ body{
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 600;
     font-style: normal;
-    letter-spacing: .08px;
     color: white;
     background-color: #333333;
-    margin: 7px;
+    margin: 1%;
     display: block;
-    width: 285px;
-    height: 45px;
+    width: 18em;
+    height: 3em;
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     transition: transform 1.5s ease-in-out;
     display: inline-block;
 }
@@ -59,12 +57,12 @@ body{
 
 .London{
     color: #F70084;
-    top: 220px;
-    font-size: 15px;
+    top: 13.1em;
+    font-size: 1em;
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    position: absolute;
+    position: fixed;
 }
 .Jessica{
     font-family: "Libre Franklin", sans-serif;
@@ -72,10 +70,10 @@ body{
     font-weight: 700;
     font-style: normal;
     color: white;
-    position: absolute;
+    position: fixed;
     justify-content: center;
-    top: 180px;
-    font-size: 30px;
+    top: 6em;
+    font-size: 1.8em;
 }
 
 .Front{
@@ -84,56 +82,22 @@ body{
     font-weight: 100;
     font-style: normal;
     color: white;
-    position: absolute;
+    position: fixed;
     justify-content: center;
-    top: 247px;
-    font-size: 13px;
+    top: 19em;
+    font-size: 0.8em;
 }
 
 .caixa1{
-    height: 455px;
-    width: 180px;
-    border-radius: 15px;
+    height: 28.3em;
+    width: 11.2em;
+    border-radius: 1em;
     justify-content: center;
     align-items:end;
     display: flex;
-    position: absolute;
+    position: fixed;
 
 }
-
-@media screen and (max-width: 768px) {
-    .imagem{
-        top:50px;
-    }
-
-    .Jessica{
-        top:140px;
-    }
-
-    .London{
-        top: 180px;
-    }
-
-    .Front{
-        top: 205px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
 
 
 
