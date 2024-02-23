@@ -22,7 +22,7 @@ body{
     border-radius: 100px;
     width: auto;
     height: 15%;
-    top: 80px;
+    top: 60px;
 }
 .Containerdobutao{
     display: flex;
@@ -59,7 +59,7 @@ body{
 
 .London{
     color: #F70084;
-    top: 220px;
+    top: 200px;
     font-size: 15px;
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
@@ -74,7 +74,7 @@ body{
     color: white;
     position: absolute;
     justify-content: center;
-    top: 180px;
+    top: 160px;
     font-size: 30px;
 }
 
@@ -86,7 +86,7 @@ body{
     color: white;
     position: absolute;
     justify-content: center;
-    top: 247px;
+    top: 227px;
     font-size: 13px;
 }
 
